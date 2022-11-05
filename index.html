@@ -51,18 +51,41 @@
         padding: 25px 25px;
         font-size: 24px;
         font-weight: bold;
-        color: white;
-        background-color: rgba(98, 111, 141, 0.1);
+        color: #26486f;
+        background-color: rgba(250, 192, 89, 0.8);
+        border: none;
         font-family: Arial, Helvetica, sans-serif;
         transition: all 0.5s ease-out;
       }
       .find-more-link:hover {
-        color: #26486f;
-        background-color: rgba(250, 192, 89, 0.8);
+        color: rgba(250, 192, 89);
+        background-color: #26486f;
         border: none;
       }
       .logo {
         width: 45px;
+      }
+      @media (max-width: 768px) {
+        h1 {
+          font-size: 3.5em;
+        }
+        h2 {
+          font-size: 18px;
+        }
+        h3 {
+          font-size: 32px;
+        }
+        .hero {
+          margin-top: 180px;
+          padding: 20px;
+        }
+        .link-section {
+          text-align: center;
+        }
+        .find-more-link {
+          padding: 25px 25px;
+          font-size: 18px;
+        }
       }
     </style>
   </head>
@@ -106,7 +129,7 @@
               <a class="nav-link" href="#">History</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">War</a>
+              <a class="nav-link fw-bolder text-danger" href="#">War now</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Contact Us</a>
