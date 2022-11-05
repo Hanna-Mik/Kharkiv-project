@@ -26,15 +26,54 @@
         color: white;
       }
       .hero {
-        margin: 250px 0 auto;
-        padding: 0 150px;
+        margin-top: 250px;
+      }
+      .find-more-link {
+        font-size: 24px;
       }
     </style>
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Kharkiv</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Homepage</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About city</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">History</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">War</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <div class="container hero">
       <div class="row">
-        <div class="col-6">
+        <div class="col-6 city-description">
           <h3>Hi, I am</h3>
           <h1>Kharkiv,</h1>
           <h2>
@@ -43,7 +82,9 @@
           </h2>
         </div>
         <div class="col-6">
-          <a href="#">Find more about Kharkiv and ITS secrets</a>
+          <a href="#" class="btn btn-light find-more-link"
+            >Find more about Kharkiv and ITS secrets</a
+          >
         </div>
       </div>
     </div>
